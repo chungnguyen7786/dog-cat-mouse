@@ -10,6 +10,9 @@ console.log(mickey);
 console.log(jerry);
 console.log(tom);
 
+var rice = 0.1;
+jerry.eat(rice);
+
 tom.eat(mickey);
 tom.eat(jerry);
 
@@ -17,3 +20,4 @@ console.log(tom);
 
 var john = new Dog('John', 'brown', 10);
 john.sayHi() ;
+
