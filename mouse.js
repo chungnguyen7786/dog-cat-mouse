@@ -8,6 +8,7 @@ function Mouse(name, color, weight) {
 
 Mouse.prototype.die = function() {
     this.dead = false;
+    this.color = 'white';
 };
 
 Mouse.prototype.eat = function(rice) {

@@ -12,7 +12,7 @@ Cat.prototype.eat = function (mouse) {
 };
 
 Cat.prototype.meow = function() {
-	console.log('Meow meow..');
+	console.log('meow meow...');
 }
 
 module.exports = Cat;
