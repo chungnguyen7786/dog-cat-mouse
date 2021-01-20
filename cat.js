@@ -11,4 +11,8 @@ Cat.prototype.eat = function (mouse) {
     mouse.die();
 };
 
+Cat.prototype.meow = function() {
+	console.log('Meow meow..');
+}
+
 module.exports = Cat;

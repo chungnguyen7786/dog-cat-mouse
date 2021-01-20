@@ -10,4 +10,8 @@ Mouse.prototype.die = function() {
     this.dead = false;
 };
 
+Mouse.prototype.eat = function(rice) {
+	this.weight += rice;
+}
+
 module.exports = Mouse;
